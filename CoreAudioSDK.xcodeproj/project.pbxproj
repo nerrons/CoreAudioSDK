@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F36F3C6245EC85C003972A5 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F36F3C5245EC85C003972A5 /* CoreServices.framework */; };
+		3F36F3CF245ECB7F003972A5 /* AUInstrumentBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F66A23C245EACEF00D5AB4E /* AUInstrumentBase.cpp */; };
+		3F36F3D0245ECB7F003972A5 /* SynthElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F66A23D245EACEF00D5AB4E /* SynthElement.cpp */; };
+		3F36F3D1245ECB7F003972A5 /* SynthNote.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F66A23B245EACEF00D5AB4E /* SynthNote.cpp */; };
+		3F36F3D2245ECB7F003972A5 /* SynthNoteList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F66A23E245EACEF00D5AB4E /* SynthNoteList.cpp */; };
+		3F36F3D3245ECB88003972A5 /* AUInstrumentBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F66A236245EACEF00D5AB4E /* AUInstrumentBase.h */; };
+		3F36F3D4245ECB88003972A5 /* LockFreeFIFO.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F66A234245EACEF00D5AB4E /* LockFreeFIFO.h */; };
+		3F36F3D5245ECB88003972A5 /* MIDIControlHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F66A238245EACEF00D5AB4E /* MIDIControlHandler.h */; };
+		3F36F3D6245ECB88003972A5 /* SynthElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F66A237245EACEF00D5AB4E /* SynthElement.h */; };
+		3F36F3D7245ECB88003972A5 /* SynthEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F66A23A245EACEF00D5AB4E /* SynthEvent.h */; };
+		3F36F3D8245ECB88003972A5 /* SynthNote.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F66A239245EACEF00D5AB4E /* SynthNote.h */; };
+		3F36F3D9245ECB88003972A5 /* SynthNoteList.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F66A235245EACEF00D5AB4E /* SynthNoteList.h */; };
+		3F36F3DA245ECBA3003972A5 /* AUViewLocalizedStringKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F66A232245EACEF00D5AB4E /* AUViewLocalizedStringKeys.h */; };
 		3F66A307245EADB300D5AB4E /* AUBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F66A243245EACEF00D5AB4E /* AUBase.cpp */; };
 		3F66A308245EADB300D5AB4E /* AUDispatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F66A24C245EACEF00D5AB4E /* AUDispatch.cpp */; };
 		3F66A309245EADB300D5AB4E /* AUInputElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F66A24E245EACEF00D5AB4E /* AUInputElement.cpp */; };
@@ -161,6 +174,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F36F3C5245EC85C003972A5 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		3F36F3CB245ECB60003972A5 /* libAUInstrumentBase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAUInstrumentBase.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F66A229245EACD200D5AB4E /* libPublicUtility.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPublicUtility.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F66A232245EACEF00D5AB4E /* AUViewLocalizedStringKeys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AUViewLocalizedStringKeys.h; sourceTree = "<group>"; };
 		3F66A234245EACEF00D5AB4E /* LockFreeFIFO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LockFreeFIFO.h; sourceTree = "<group>"; };
@@ -365,6 +380,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3F36F3C9245ECB60003972A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3F66A227245EACD200D5AB4E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -377,6 +399,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F36F3C6245EC85C003972A5 /* CoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +440,7 @@
 				3F66A303245EAD7D00D5AB4E /* libAUBase.a */,
 				3F66A390245EB2FB00D5AB4E /* libAUCarbonViewBase.a */,
 				3F66A3A1245EB3A100D5AB4E /* libAUUtility.a */,
+				3F36F3CB245ECB60003972A5 /* libAUInstrumentBase.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -445,17 +469,17 @@
 		3F66A233245EACEF00D5AB4E /* AUInstrumentBase */ = {
 			isa = PBXGroup;
 			children = (
-				3F66A234245EACEF00D5AB4E /* LockFreeFIFO.h */,
-				3F66A235245EACEF00D5AB4E /* SynthNoteList.h */,
-				3F66A236245EACEF00D5AB4E /* AUInstrumentBase.h */,
-				3F66A237245EACEF00D5AB4E /* SynthElement.h */,
-				3F66A238245EACEF00D5AB4E /* MIDIControlHandler.h */,
-				3F66A239245EACEF00D5AB4E /* SynthNote.h */,
-				3F66A23A245EACEF00D5AB4E /* SynthEvent.h */,
-				3F66A23B245EACEF00D5AB4E /* SynthNote.cpp */,
 				3F66A23C245EACEF00D5AB4E /* AUInstrumentBase.cpp */,
 				3F66A23D245EACEF00D5AB4E /* SynthElement.cpp */,
+				3F66A23B245EACEF00D5AB4E /* SynthNote.cpp */,
 				3F66A23E245EACEF00D5AB4E /* SynthNoteList.cpp */,
+				3F66A236245EACEF00D5AB4E /* AUInstrumentBase.h */,
+				3F66A234245EACEF00D5AB4E /* LockFreeFIFO.h */,
+				3F66A238245EACEF00D5AB4E /* MIDIControlHandler.h */,
+				3F66A237245EACEF00D5AB4E /* SynthElement.h */,
+				3F66A23A245EACEF00D5AB4E /* SynthEvent.h */,
+				3F66A239245EACEF00D5AB4E /* SynthNote.h */,
+				3F66A235245EACEF00D5AB4E /* SynthNoteList.h */,
 			);
 			path = AUInstrumentBase;
 			sourceTree = "<group>";
@@ -485,18 +509,18 @@
 		3F66A24F245EACEF00D5AB4E /* OtherBases */ = {
 			isa = PBXGroup;
 			children = (
-				3F66A250245EACEF00D5AB4E /* MusicDeviceBase.cpp */,
-				3F66A251245EACEF00D5AB4E /* AUMIDIEffectBase.h */,
-				3F66A252245EACEF00D5AB4E /* AUMIDIBase.h */,
-				3F66A253245EACEF00D5AB4E /* AUMIDIBase.cpp */,
-				3F66A254245EACEF00D5AB4E /* AUPannerBase.h */,
 				3F66A255245EACEF00D5AB4E /* AUEffectBase.cpp */,
-				3F66A256245EACEF00D5AB4E /* AUEffectBase.h */,
-				3F66A257245EACEF00D5AB4E /* AUOutputBase.h */,
+				3F66A253245EACEF00D5AB4E /* AUMIDIBase.cpp */,
 				3F66A258245EACEF00D5AB4E /* AUMIDIEffectBase.cpp */,
-				3F66A259245EACEF00D5AB4E /* MusicDeviceBase.h */,
-				3F66A25A245EACEF00D5AB4E /* AUPannerBase.cpp */,
 				3F66A25B245EACEF00D5AB4E /* AUOutputBase.cpp */,
+				3F66A25A245EACEF00D5AB4E /* AUPannerBase.cpp */,
+				3F66A250245EACEF00D5AB4E /* MusicDeviceBase.cpp */,
+				3F66A256245EACEF00D5AB4E /* AUEffectBase.h */,
+				3F66A252245EACEF00D5AB4E /* AUMIDIBase.h */,
+				3F66A251245EACEF00D5AB4E /* AUMIDIEffectBase.h */,
+				3F66A257245EACEF00D5AB4E /* AUOutputBase.h */,
+				3F66A254245EACEF00D5AB4E /* AUPannerBase.h */,
+				3F66A259245EACEF00D5AB4E /* MusicDeviceBase.h */,
 			);
 			path = OtherBases;
 			sourceTree = "<group>";
@@ -697,6 +721,7 @@
 		3F66A38A245EB22100D5AB4E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3F36F3C5245EC85C003972A5 /* CoreServices.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -704,6 +729,20 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		3F36F3C7245ECB60003972A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F36F3D3245ECB88003972A5 /* AUInstrumentBase.h in Headers */,
+				3F36F3D4245ECB88003972A5 /* LockFreeFIFO.h in Headers */,
+				3F36F3D5245ECB88003972A5 /* MIDIControlHandler.h in Headers */,
+				3F36F3D6245ECB88003972A5 /* SynthElement.h in Headers */,
+				3F36F3D7245ECB88003972A5 /* SynthEvent.h in Headers */,
+				3F36F3D8245ECB88003972A5 /* SynthNote.h in Headers */,
+				3F36F3D9245ECB88003972A5 /* SynthNoteList.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3F66A225245EACD200D5AB4E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -797,6 +836,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F36F3DA245ECBA3003972A5 /* AUViewLocalizedStringKeys.h in Headers */,
 				3F66A394245EB34000D5AB4E /* AUCarbonViewBase.h in Headers */,
 				3F66A395245EB34000D5AB4E /* AUCarbonViewControl.h in Headers */,
 				3F66A396245EB34000D5AB4E /* AUControlGroup.h in Headers */,
@@ -820,6 +860,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		3F36F3CA245ECB60003972A5 /* AUInstrumentBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F36F3CC245ECB60003972A5 /* Build configuration list for PBXNativeTarget "AUInstrumentBase" */;
+			buildPhases = (
+				3F36F3C7245ECB60003972A5 /* Headers */,
+				3F36F3C8245ECB60003972A5 /* Sources */,
+				3F36F3C9245ECB60003972A5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AUInstrumentBase;
+			productName = AUInstrumentBase;
+			productReference = 3F36F3CB245ECB60003972A5 /* libAUInstrumentBase.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		3F66A228245EACD200D5AB4E /* PublicUtility */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F66A22D245EACD200D5AB4E /* Build configuration list for PBXNativeTarget "PublicUtility" */;
@@ -897,6 +954,9 @@
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = nerrons;
 				TargetAttributes = {
+					3F36F3CA245ECB60003972A5 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
 					3F66A228245EACD200D5AB4E = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
@@ -928,11 +988,23 @@
 				3F66A302245EAD7D00D5AB4E /* AUBase */,
 				3F66A38F245EB2FB00D5AB4E /* AUCarbonViewBase */,
 				3F66A3A0245EB3A100D5AB4E /* AUUtility */,
+				3F36F3CA245ECB60003972A5 /* AUInstrumentBase */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3F36F3C8245ECB60003972A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F36F3CF245ECB7F003972A5 /* AUInstrumentBase.cpp in Sources */,
+				3F36F3D0245ECB7F003972A5 /* SynthElement.cpp in Sources */,
+				3F36F3D1245ECB7F003972A5 /* SynthNote.cpp in Sources */,
+				3F36F3D2245ECB7F003972A5 /* SynthNoteList.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3F66A226245EACD200D5AB4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1028,6 +1100,36 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		3F36F3CD245ECB60003972A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RC9R8AS63;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3F36F3CE245ECB60003972A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RC9R8AS63;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		3F66A22B245EACD200D5AB4E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1069,6 +1171,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"CA_USE_AUDIO_PLUGIN_ONLY=0",
 					"DEBUG=1",
 					"$(inherited)",
 				);
@@ -1129,6 +1232,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = c11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "CA_USE_AUDIO_PLUGIN_ONLY=0";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -1246,6 +1350,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3F36F3CC245ECB60003972A5 /* Build configuration list for PBXNativeTarget "AUInstrumentBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F36F3CD245ECB60003972A5 /* Debug */,
+				3F36F3CE245ECB60003972A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3F66A224245EACD200D5AB4E /* Build configuration list for PBXProject "CoreAudioSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
