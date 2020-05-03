@@ -2,6 +2,10 @@
 Here's the definitive source of the Core Audio SDK because Apple doesn't care to provide one.
 Originally from Apple documentation Archive, [Core Audio Utility Classes](https://developer.apple.com/library/archive/samplecode/CoreAudioUtilityClasses/Introduction/Intro.html).
 
+## Careful!
+[Rumours](https://github.com/robovm/apple-ios-samples/tree/master/CoreAudioUtilityClasses) are that you can define 
+`CA_NO_CORE_SERVICES` and `CA_USE_AUDIO_PLUGIN_ONLY`, but that causes the build of `AUPublic` to fail.
+
 ## What's different
 
 #### `verify` and `verify_noerr`
