@@ -4,25 +4,45 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>AUBase.xcscheme_^#shared#^_</key>
+		<key>ACPublic.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>AFPublic.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>AUBase.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>AUCarbonViewBase.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>6</integer>
 		</dict>
 		<key>AUInstrumentBase.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>7</integer>
+		</dict>
+		<key>AUOtherBases.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>AUPublic.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
 		</dict>
 		<key>AUUtility.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>4</integer>
 		</dict>
 		<key>PublicUtility.xcscheme_^#shared#^_</key>
 		<dict>
@@ -32,6 +52,21 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>3F36F3F2245ECC04003972A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3F36F431245ECC77003972A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3F36F443245ECCAA003972A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>3F66A228245EACD200D5AB4E</key>
 		<dict>
 			<key>primary</key>
