@@ -1,5 +1,5 @@
 # CoreAudioSDK
-Here's the definitive source of the Core Audio SDK because Apple doesn't care to provide one.
+Here's the definitive source of the Core Audio SDK because It's been missing forever.
 Originally from Apple documentation Archive, [Core Audio Utility Classes](https://developer.apple.com/library/archive/samplecode/CoreAudioUtilityClasses/Introduction/Intro.html).
 
 ## Careful!
